@@ -1,0 +1,50 @@
+ class EqualTest
+ {
+	public static void main(String[] args)
+ {
+		int arr1[] = { 1, 2, 3 };
+		int arr2[] = { 1, 2, 3 };
+	if (arr1 == arr2)
+        {
+          // Same as arr1.equals(arr2)
+		System.out.println("Same");
+	  }
+    else {
+		System.out.println("Not same");
+		}
+	  }
+	}
+
+public class Reverse
+	 {
+		public static void main(String[] args) 
+		{
+		boolean[] values = { false, true, true, true };
+		// Loop over array elements in reverse order.
+			for (int i = values.length - 1; i >= 0; i--) 
+				{
+					System.out.println(values[i]);
+				}
+			}
+	}
+
+public class UserArray
+	 {
+		public static void main(String[] args)	
+		 {
+			int[] z = new int[10];
+			Scanner s = new Scanner(System.in);
+			System.out.println("Enter 10 integers of array");
+				for (int i = 0; i < 10; i++) 
+					{
+						System.out.println("Enter array element");
+						z[i] = s.nextInt();
+					}
+						System.out.println("You have entered");
+						for (int i = 0; i < 10; i++) 	
+						{
+							System.out.println(z[i]);
+						}
+			}
+
+}
